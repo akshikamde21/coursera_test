@@ -120,12 +120,12 @@ body{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile{
-	background: url(images/menu1.jpg) no-repeat;
+	background: url(images/menu.jpg) no-repeat;
 	background-position: center;
 	
 }
 #specials-tile{
-	background: url(images/taco1.jpg) no-repeat;
+	background: url(images/taco.jpg) no-repeat;
 	background-position: center;
 	
 }
