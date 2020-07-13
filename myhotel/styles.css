@@ -106,6 +106,23 @@ body{
 	box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 }
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
 
 /*main content*/
 #menu-tile, #specials-tile, #map-tile{
@@ -118,6 +135,8 @@ body{
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
+	transform: scale(1.1);
+
 }
 #menu-tile{
 	background: url(images/menu.jpg) no-repeat;
@@ -140,7 +159,8 @@ body{
 	text-transform: uppercase;
 	background-color: #000;
 	color: #fff;
-	opacity: .7;
+	opacity: .6;
+	transform: scale(1.0);
 }
 
 /*LARGE DEVICES*/
@@ -151,7 +171,7 @@ body{
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
-
+  
 }
 /*MEDIUM*/
 @media(min-width: 992px) and (max-width: 1199px){
@@ -172,6 +192,7 @@ body{
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
+
 	/*home page end*/
 
 
@@ -186,6 +207,8 @@ body{
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
+
+
 	/*home page end*/
 
   
@@ -235,6 +258,7 @@ body{
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
+
 	/*home page end*/
 /*footer*/
 .panel-footer section{
